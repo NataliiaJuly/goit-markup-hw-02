@@ -1,0 +1,96 @@
+/* цвет Web Web Site App Design Marketing -/* IRIS color: #4D5AE5; */
+ /* цвет Studio Portfolio Contact - /* NAVY BLUE */ color: #2E2F42; */
+ /* цвет email tel - * SLATE */ color: #434455;*/
+/* цвет кнопки All - /* OCEAN */background: #404BBF; */
+/*фон копок  Web Site App Desi Market/* CLOUD */background: #F4F4FD; */
+/*цвет h3 - /* NAVY BLUE */color: #2E2F42; */
+/* цвет p - /* SLATE */ color: #434455; /
+/*цвет fotter /* NAVY BLUE */background: #2E2F42; Web -IRIS */ color: #4D5AE5; Studio - /* CLOUD */color: #F4F4FD; / */
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #2E2F42;
+    background-color: #ffffff;
+}
+
+.logo {
+    color: #4D5AE5; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.accent-header {
+    color: #2E2F42;
+}
+
+.item {
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.list {
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-decoration: none;
+}
+.btn {
+    background: #F4F4FD;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    border-color: #E7E9FC; 
+}
+.item-list {
+    list-style-type: none; 
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer-list {
+    background: #2E2F42;
+}
+.accent-footer {
+    color: #F4F4FD;
+}
+
+.text-footer {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
