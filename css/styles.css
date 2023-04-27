@@ -1,20 +1,27 @@
-/* цвет Web Web Site App Design Marketing -/* IRIS color: #4D5AE5; */
- /* цвет Studio Portfolio Contact - /* NAVY BLUE */ color: #2E2F42; */
- /* цвет email tel - * SLATE */ color: #434455;*/
-/* цвет кнопки All - /* OCEAN */background: #404BBF; */
-/*фон копок  Web Site App Desi Market/* CLOUD */background: #F4F4FD; */
-/*цвет h3 - /* NAVY BLUE */color: #2E2F42; */
-/* цвет p - /* SLATE */ color: #434455; /
-/*цвет fotter /* NAVY BLUE */background: #2E2F42; Web -IRIS */ color: #4D5AE5; Studio - /* CLOUD */color: #F4F4FD; / */
+
+:root {
+    --main-color: #4D5AE5; 
+   /* --main-font-family: 'Roboto', sans-serif;
+   --secondary-font-family: 'Raleway', sans-serif; */
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #2E2F42;
     background-color: #ffffff;
 }
 
+/* Хедер */
 .logo {
-    color: #4D5AE5; 
+    color: var(--main-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -34,9 +41,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    
 }
-.list {
+.item:hover,
+.item:focus {
+  color: #404BBF;
+}
+.list-info {
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -44,23 +55,46 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-    text-decoration: none;
 }
-.btn {
-    background: #F4F4FD;
+.list-info:hover,
+.list-info:focus {
+    color: #404BBF;
+}
+
+/* Індекс секція 1 */
+.main-title {
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.section-color {
+    background-color: #2E2F42;
+}
+
+.index-btn {
+    background-color: var(--main-color);
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
+    align-items: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    border-color: #E7E9FC; 
-}
-.item-list {
-    list-style-type: none; 
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
-.title {
+.index-btn:hover,
+.index-btn:focus {
+    background-color: #404BBF;
+}
+
+.subtitle {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -68,10 +102,68 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    
 }
-p {
+.subtitle-text {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;                                     
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-color {
+    background-color: #F4F4FD;
+}
+
+.teamcard-color {
+    background-color: #ffffff;
+}
+
+/* Кнопки */
+.btn { 
+    /* var(--main-font-family); */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--main-color);
+    border-color: #E7E9FC;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #404BBF;
+    color: #ffffff;
+}
+
+
+.title {
+    /* var(--main-font-family); */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.title-text {
+    /* var(--main-font-family); */
+    font-family: 'Roboto', sans-serif; 
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -79,15 +171,15 @@ p {
     color: #434455;
 }
 .footer-list {
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 .accent-footer {
     color: #F4F4FD;
 }
 
 .text-footer {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    /* var(--main-font-family); */
+    font-family: 'Roboto', sans-serif; 
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
