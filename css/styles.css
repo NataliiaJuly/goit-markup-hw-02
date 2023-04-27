@@ -38,8 +38,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
 }
+
 .item:hover,
 .item:focus {
   color: #404BBF;
@@ -53,6 +53,7 @@ body {
     letter-spacing: 0.02em;
     font-style: normal;
 }
+
 .list-info:hover,
 .list-info:focus {
     color: #404BBF;
